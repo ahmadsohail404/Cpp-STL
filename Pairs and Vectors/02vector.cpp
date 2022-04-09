@@ -43,5 +43,7 @@ int main()
 
     //* vector<int> v1 = v2; --> O(n) complexity, copies directly UNLIKE arrays
 
-    return 0;
+    // pass vectors as a reference for avoiding copy making as argument in a function.
+
+        return 0;
 }

@@ -3,7 +3,7 @@ using namespace std;
 
 // VECTORS
 // in a locally declared vector/array --> 10^5 order elements.
-// in a declared vector/array --> 10^7 order elements.
+// in a globally declared vector/array --> 10^7 order elements.
 
 void printVec(vector<int> v)
 {

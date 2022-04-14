@@ -1,14 +1,4 @@
-// #pragma GCC optimize("Ofast")
-// #pragma GCC target("avx,avx2,fma")
-// #pragma GCC optimize("O3")
-// #pragma GCC target("avx,avx2,sse,sse2,sse3,sse4,popcnt,fma")
-// #pragma GCC optimize("unroll-loops")
-
 #include <bits/stdc++.h>
-// #include <ext/pb_ds/assoc_container.hpp>
-// #include <ext/pb_ds/tree_policy.hpp>
-
-// using namespace __gnu_pbds;
 
 #define pb push_back
 #define eb emplace_back
@@ -21,19 +11,12 @@
 #define no cout << "NO" << endl;
 #define all(x) (x).begin(), (x).end()
 #define rall(x) (x).rbegin(), (x).rend()
-// #define forf(t,i,n) for(t i=0;i<n;i++)
-// #define forr(t,i,n) for(t i=n-1;i>=0;i--)
 #define forf(i, a, b) for (ll i = a; i < b; i++)
 #define forr(i, a, b) for (ll i = a; i >= b; i--)
 #define ceach(a, x) for (const auto &a : x)
 #define each(a, x) for (auto &a : x)
-#define print(x)              \
-    for (const auto &e : (x)) \
-    {                         \
-        cout << e << " ";     \
-    }                         \
-    cout << endl
-#define daalo(a) \
+#define print(x) for (const auto &e : (x)) { cout << e << " "; } cout << endl;
+#define daalo(a) 
     each(x, a) { cin >> x; }
 
 using namespace std;
@@ -707,5 +690,8 @@ int main()
     cin >> t;
     while (t--)
     {
+        int x;
+        cin >> x;
+        cout << x * x << endl;
     }
 }
